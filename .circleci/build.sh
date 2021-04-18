@@ -47,7 +47,6 @@ function compile() {
                          LD=ld.lld \
                          NM=llvm-nm \
                          AR=llvm-ar \
-                         CC="ccache clang" \
                CLANG_TRIPLE=aarch64-linux-gnu- \
               CROSS_COMPILE=aarch64-linux-gnu- \
        CROSS_COMPILE_COMPAT=arm-linux-gnueabi-

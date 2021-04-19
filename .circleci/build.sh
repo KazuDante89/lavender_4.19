@@ -60,7 +60,7 @@ function compile() {
 # Zipping
 function zipping() {
     cd AnyKernel || exit 1
-    zip -r9 Kazu-4.19_v0.1.zip *
+    zip -r9 Kazu-4.19_v0.3.zip *
     cd ..
 }
 sendinfo

@@ -627,7 +627,10 @@ static int cpufreq_parse_governor(char *str_governor,
 
 			mutex_lock(&cpufreq_governor_mutex);
 
+    if (ret == 0)
 			t = find_governor(str_governor);
+		else
+			t = find_governor("schedutil");
 		}
 		if (t && !try_module_get(t->owner))
 			t = NULL;

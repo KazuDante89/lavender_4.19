@@ -44,7 +44,7 @@
 *.xz
 Module.symvers
 modules.builtin
-*sh
+
 
 #
 # Top-level generic files
@@ -84,6 +84,7 @@ modules.builtin
 #
 !.gitignore
 !.mailmap
+!.circleci
 !.cocciconfig
 !.clang-format
 
